@@ -11,4 +11,8 @@ class SupplierController extends Controller
     public static function getSupplierName () :string {
         return self::$name;
     }
+  
+    public static function order (float $amout, int $itemsCount) : void {
+        // 
+    }
 }
